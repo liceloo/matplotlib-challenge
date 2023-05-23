@@ -39,7 +39,7 @@ Your summary statistics should include:
 > * Create the second pie chart with Matplotlib's pyplot methods.
 
 ### Calculate Quartiles, Find Outliers, and Create a Box Plot
-Calculate the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Then, calculate the quartiles and IQR, and determine if there are any potential outliers across all four treatment regimens. Use the following substeps:
+1. Calculate the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Then, calculate the quartiles and IQR, and determine if there are any potential outliers across all four treatment regimens. Use the following substeps:
 
 > * Create a grouped DataFrame that shows the last (greatest) time point for each mouse. Merge this grouped DataFrame with the original cleaned DataFrame.
 
@@ -49,16 +49,16 @@ Calculate the final tumor volume of each mouse across four of the most promising
 
 > * Determine outliers by using the upper and lower bounds, and then print the results.
 
-Using Matplotlib, generate a box plot that shows the distribution of the final tumor volume for all the mice in each treatment group. Highlight any potential outliers in the plot by changing their color and style.
+2. Using Matplotlib, generate a box plot that shows the distribution of the final tumor volume for all the mice in each treatment group. Highlight any potential outliers in the plot by changing their color and style.
 
-hint: All four box plots should be within the same figure. Use this Matplotlib documentation pageLinks to an external site. for help with changing the style of the outliers.
+*hint* : All four box plots should be within the same figure. Use this Matplotlib documentation pageLinks to an external site. for help with changing the style of the outliers.
 
 ### Create a Line Plot and a Scatter Plot
-Select a single mouse that was treated with Capomulin, and generate a line plot of tumor volume versus time point for that mouse.
+1. Select a single mouse that was treated with Capomulin, and generate a line plot of tumor volume versus time point for that mouse.
 
-Generate a scatter plot of mouse weight versus average observed tumor volume for the entire Capomulin treatment regimen.
+2. Generate a scatter plot of mouse weight versus average observed tumor volume for the entire Capomulin treatment regimen.
 
 ### Calculate Correlation and Regression
-Calculate the correlation coefficient and linear regression model between mouse weight and average observed tumor volume for the entire Capomulin treatment regimen.
+1. Calculate the correlation coefficient and linear regression model between mouse weight and average observed tumor volume for the entire Capomulin treatment regimen.
 
-Plot the linear regression model on top of the previous scatter plot.
+2. Plot the linear regression model on top of the previous scatter plot.
